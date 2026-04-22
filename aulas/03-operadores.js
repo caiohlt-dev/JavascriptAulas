@@ -33,3 +33,27 @@ let valor2 = 4.7;
 console.log("Valor 1 = ", valor1, "\nValor 2 = ", valor2)
 
 console.log("A soma de", valor1, "+", valor2, "é:", valor1 + valor2)
+
+// Operadores relacionais ou comparadores
+let a = 22;
+let b = 6;
+
+console.log("---------")
+console.log("a =", a, "b =", b);
+console.log("a é igual ao valor de b?", a == b); // Compara Igualdade.
+console.log("a é diferente do valor de b?", a != b); // Diferente
+console.log("a é maior que o valor de b?", a > b); // Maior que
+console.log("a é menor que o valor de b?", a < b); // Menor que
+console.log("a é maior ou igual ao valor de b?", a >= b); // Maior ou igual
+console.log("a é menor ou igual o valor de b?", a <= b); // Menor ou igual
+
+let c = 6;
+
+console.log("---------")
+console.log("c =", c, "b =", b);
+console.log("c é igual ao valor de b?", c == b); // Compara Igualdade.
+console.log("c é diferente do valor de b?", c != b); // Diferente
+console.log("c é maior que o valor de b?", c > b); // Maior que
+console.log("c é menor que o valor de b?", c < b); // Menor que
+console.log("c é maior ou igual ao valor de b?", c >= b); // Maior ou igual
+console.log("c é menor ou igual o valor de b?", c <= b); // Menor ou igual

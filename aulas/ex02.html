@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 02 - </title>
+</head>
+<body>
+    <script>
+        // Ex: "10"(string) em 10(valor numérico inteiro)
+        let idade = parseInt(prompt("Digite sua idade")) // "10" -> 10
+        let temCNH = prompt("Você possui CNH? (sim/não) ")
+
+        if (idade >= 18 && temCNH === "sim"){
+            alert("Você pode dirigir!");
+        } else if (idade >= 18 && temCNH !== "sim"){
+            alert("Você tem a idade, mas não possui CNH!");
+        } else {
+            alert("Você não pode dirigir!");
+        }
+    </script>
+</body>
+</html>
