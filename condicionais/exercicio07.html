@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let sm = parseFloat(prompt("Digite o seu saldo médio"))
+
+        if(sm <= 200) {
+            alert("Nenhum crédito")
+        }
+        else if(sm <= 400) {
+            alert("Seu crédito é " + sm * 0.2)
+        }
+        else if(sm <= 600) {
+            alert("Seu crédito é " + sm * 0.3)
+        }
+        else if(sm > 600) {
+            alert("Seu crédito é " + sm * 0.4)
+        }
+        else {
+            alert("Pobre lascado")
+        }
+    </script>
+</body>
+</html>

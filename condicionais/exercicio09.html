@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let lado1 = parseFloat(prompt("Digite o valor do primeiro lado"));
+        let lado2 = parseFloat(prompt("Digite o valor do segundo lado"));
+        let lado3 = parseFloat(prompt("Digite o valor do terceiro lado"));
+
+        if(lado1 == lado2 && lado1 == lado3) {
+            alert("Esse triângulo é equilatero")
+        }
+        else if(lado1 == lado2 && lado1 != lado3) {
+            alert("Esse triângulo é Isósceles")
+        }
+        else if(lado1 == lado3 && lado1 != lado2) {
+            alert("Esse triângulo é Isósceles")
+        }
+        else if(lado1 != lado2 && lado1 != lado3) {
+            alert("Esse triângulo é escaleno")
+        }
+        else {
+            alert("Vai tomar no ph (+13)")
+        }
+    </script>
+</body>
+</html>

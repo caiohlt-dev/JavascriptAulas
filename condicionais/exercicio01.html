@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let nota1 = parseFloat(prompt("Digite sua primeira nota:"));
+        let nota2 = parseFloat(prompt("Digite sua segunda nota:"));
+        let nota3 = parseFloat(prompt("Digite sua terceira nota:"));
+        
+        let peso1 = 4;
+        let peso2 = 3;
+        let peso3 = 3;
+
+        let resultado1 = nota1*peso1;
+        let resultado2 = nota2*peso2;
+        let resultado3 = nota3*peso3;
+
+        let resultado4 = resultado1+resultado2+resultado3;
+        let somaPeso = peso1+peso2+peso3;
+
+        let resultadoFinal = resultado4/somaPeso
+
+        if (resultadoFinal >= 7) {
+            alert("Aluno Aprovado!");
+        } else if(resultadoFinal >=5) {
+            alert("Aluno de Recuperação!");
+        } else {
+            alert("Aluno Reprovado!");
+        }
+
+
+    </script>
+</body>
+</html>
